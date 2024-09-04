@@ -1,0 +1,4 @@
+﻿- type: currency
+  id: UnholyEnergy
+  displayName: store-currency-display-unholy-energy
+  canWithdraw: false

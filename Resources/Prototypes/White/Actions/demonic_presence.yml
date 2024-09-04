@@ -1,0 +1,58 @@
+﻿- type: entity
+  id: ActionDemonicPresenceShop
+  name: Shop
+  description: Opens the ability shop.
+  noSpawn: true
+  components:
+  - type: InstantAction
+    icon: Interface/Actions/shop.png
+    event: !type:DemonicPresenceShopActionEvent
+
+# Path actions
+
+- type: entity
+  id: ActionDemonicPresenceBellial
+  name: Choose path of Bellial
+  description: choose path of Bellial, archduke of wraith
+  noSpawn: true
+  components:
+  - type: InstantAction
+    icon: _White/Actions/ActionBecomeBellial.png
+    event: !type:DemonicPresenceChoosePathActionEvent
+      categoryId: DemonicPresenceBellial
+
+- type: entity
+  id: ActionDemonicPresenceLilith
+  name: Choose path of Lilith
+  description: choose path of Lilith, queen of night
+  noSpawn: true
+  components:
+  - type: InstantAction
+    icon: _White/Actions/ActionBecomeLilith.png
+    event: !type:DemonicPresenceChoosePathActionEvent
+      categoryId: DemonicPresenceLilith
+
+- type: entity
+  id: ActionDemonicPresenceMammon
+  name: Choose path of Mammon
+  description: choose path of Mammon, archbaron of lies.
+  noSpawn: true
+  components:
+  - type: InstantAction
+    icon: _White/Actions/ActionBecomeMammon.png
+    event: !type:DemonicPresenceChoosePathActionEvent
+      categoryId: DemonicPresenceMammon
+
+# Bellial
+
+- type: entity
+  id: ActionDemonicPresenceSpawnRiftBellial
+  name: Spawn rift
+  description: spawn rift
+  noSpawn: true
+  components:
+  - type: InstantAction
+    icon: _White/Actions/ActionSpawnBellialRift.png
+    event: !type:DemonicPresenceSpawnActionEvent
+      energyCost: 50
+      prototype: BellialRift

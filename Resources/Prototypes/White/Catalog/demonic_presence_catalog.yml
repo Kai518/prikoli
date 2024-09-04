@@ -1,0 +1,12 @@
+﻿- type: listing
+  id: BelialRiftListing
+  name: rift
+  description: create rift
+  productAction: ActionDemonicPresenceSpawnRiftBellial
+  cost:
+    UnholyEnergy: 50
+  categories:
+  - DemonicPresenceBellial
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1

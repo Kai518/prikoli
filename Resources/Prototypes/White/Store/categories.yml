@@ -1,0 +1,14 @@
+﻿- type: storeCategory
+  id: DemonicPresenceBellial
+  name: store-category-bellial
+  priority: 0
+
+- type: storeCategory
+  id: DemonicPresenceLilith
+  name: store-category-lilith
+  priority: 0
+
+- type: storeCategory
+  id: DemonicPresenceMammon
+  name: store-category-mammon
+  priority: 0
